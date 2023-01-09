@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "location": {
+        "value": "westeurope"
+      },
+      "resourceGroupName": {
+        "value": "azssk-monitoring-rg"
+      },
+      "subscriptionId":{
+        "value": ""
+      },
+      "targetManagementGroup":{
+        "value": ""
+      },
+      "notificationEmail": {
+        "value": ""
+      },
+      "logAnalyticsName": {
+        "value": "azssk-monitoring"
+      },
+      "logDiagnosticsAADName": {
+        "value": "azssk-aad-logdiag"
+      },
+      "logDiagnosticsMGName": {
+        "value": "azssk-mg-logdiag"
+      },
+      "logDiagnosticsSubscriptionName": {
+        "value": "azssk-sub-logdiag"
+      },
+      "alertRuleName1": {
+        "value": "ConditionalAccessModified"
+      },
+      "alertRuleName2": {
+        "value": "RunCommandInvoked"
+      },
+      "alertRuleName3": {
+        "value": "VMDiskSnapshotGenerated"
+      },
+      "alertRuleName4": {
+        "value": "VMPasswordResetInvoked"
+      },
+      "alertRuleName5": {
+        "value": "BastionShareableLinkCreated"
+      },
+      "alertRuleName6": {
+        "value": "ElevatedAccessToggleInvoked"
+      }
+    }
+  }
