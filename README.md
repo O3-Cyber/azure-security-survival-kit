@@ -32,7 +32,7 @@ The following detections are part of the template:
 
 6. ElevatedAccessToggleInvoked - Detects the invocation of Elevated Access Toggle
 
-For adding more alerts, see [Extending Alerts](https://github.com/03-Cyber/Azure-Security-Survival-Kit-Prerelease/blob/main/README.md#extending-alerts).
+For adding more alerts, see [Extending Alerts](#extending-alerts).
 
 ## Deployment
 
