@@ -108,6 +108,10 @@ resource aadLogs 'microsoft.aadiam/diagnosticSettings@2017-04-01' = {
       category: 'ServicePrincipalRiskEvents'
       enabled: true
     }
+    {
+      category: 'MicrosoftGraphActivityLogs'
+      enabled: true
+    }
     ]
   }
 }

@@ -9,13 +9,13 @@
         "value": "azssk-monitoring-rg"
       },
       "subscriptionId":{
-        "value": ""
+        "value": "b837386d-5ba9-4ff9-b55e-7b483e17b8bd"
       },
       "targetManagementGroup":{
-        "value": ""
+        "value": "749c9415-047f-4db6-86b7-c277edce0156"
       },
       "notificationEmail": {
-        "value": ""
+        "value": "karims@outlook.com"
       },
       "logAnalyticsName": {
         "value": "azssk-monitoring"
